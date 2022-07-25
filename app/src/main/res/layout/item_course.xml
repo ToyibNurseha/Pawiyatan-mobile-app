@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <io.github.florent37.shapeofview.shapes.CircleView
+        android:id="@+id/subjectImage"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSubject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorConcrete"
+            android:padding="@dimen/_8sdp"
+            app:srcCompat="@drawable/ic_subject_placeholder"/>
+
+    </io.github.florent37.shapeofview.shapes.CircleView>
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ilmu Pengetahuan Sosial"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/subjectImage"
+        app:layout_constraintTop_toTopOf="@id/subjectImage"
+        app:layout_constraintBottom_toBottomOf="@id/subjectImage"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.7"
+        android:background="@color/colorMercury"
+        app:layout_constraintStart_toStartOf="@+id/tvSubject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

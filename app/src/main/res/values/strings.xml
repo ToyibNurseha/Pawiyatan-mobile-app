@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PBK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roll_the_dice">Roll the Dice</string>
+    <string name="masuk_atau_daftar">Masuk atau Daftar</string>
+    <string name="daftar">Daftar</string>
+    <string name="password">Password</string>
+    <string name="email_atau_username">Email atau Username</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="daftar_dengan_google">Daftar dengan Google</string>
+    <string name="sudah_punya_akun"><u>Sudah punya akun</u></string>
+</resources>
